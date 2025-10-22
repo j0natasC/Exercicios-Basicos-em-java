@@ -28,7 +28,6 @@ public class calculodePecas {
 
             System.out.println("Total a pagar de:" + calculo );
 
-        
             
 
             scan.close();
