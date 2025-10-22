@@ -19,5 +19,9 @@ public class comanda {
         double total = valor[indice] * quantidade;
 
         System.out.printf("Você pediu %d - %s no valor de R$: %.2f ", quantidade, item[indice], total);
+        
+
+        scan.close();
+
     }
 }
