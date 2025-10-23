@@ -25,7 +25,6 @@ public class postodegasolina {
                 codigo = 0; 
             }
             
-           
             switch (codigo) {
                 case 1:
                     alcool++;
