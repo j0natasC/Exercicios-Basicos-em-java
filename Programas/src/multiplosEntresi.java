@@ -10,18 +10,13 @@ public class multiplosEntresi {
                     num1 = scan.nextInt();
                     System.out.println("Digite o segundo número");
                     num2 = scan.nextInt();
-
+                    
                     if (num1 % num2  == 0 || num2 % num1 == 0 ) {
                         System.out.println("Esses números são múltiplos ");
                     }else {
                         System.out.println("Esses números não são múltiplos");}
 
-
-
-
-
                 scan.close();
-
 
                 }
 }
