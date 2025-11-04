@@ -10,6 +10,7 @@ public class acesso {
             System.out.println("Senha incorreta. Tente novamente");
             x = scan.nextInt();
         }
+        
         System.out.println("Senha correta. Acesso permitido e programa finalizado");
         scan.close();
     }
