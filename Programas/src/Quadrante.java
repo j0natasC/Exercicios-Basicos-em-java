@@ -6,7 +6,7 @@ public class Quadrante {
 
         System.out.println("Vamos verificar em quê quadrante está o número digitado");
         
-        
+
         System.out.println("Digite as coordenadas de X");
         double x = scan.nextDouble();
         System.out.println("Digite as coordenadas de Y");
@@ -23,7 +23,6 @@ public class Quadrante {
         }else if (x == 0 && y == 0) {
             System.out.println("Origem");
         }
-
 
         scan.close();
 }
